@@ -36,7 +36,7 @@ public class WaterProducer {
 
         }else
         {
-            throw new Exception("Didn't drink's type");
+            throw new Exception("Unknown drink's type");
         }
 
         stories.put(name, waterStore);
