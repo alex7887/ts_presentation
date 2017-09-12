@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b37f05cf-b51f-44c9-9f46-7873d39f3797" name="Default" comment="Общий прецедент для всех объектов. Поправлен С. Изумрудным.&#10;&#10;Поправлен прецендент взятия ID объекта из файла.&#10;Поддерживаются для 27 и 28 версии.">
+    <list default="true" id="b37f05cf-b51f-44c9-9f46-7873d39f3797" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/psit/example/test/producer/WaterProducerTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/psit/example/test/producer/WaterProducerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaterProducerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WaterProducerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/psit/example/test/producer/WaterProducerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+            <state relative-caret-position="211">
+              <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaterProducer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WaterProducer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/psit/example/test/producer/WaterProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="398">
+              <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,6 +105,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="kapustin7" />
+        <option value="dima7887 &lt;dimaharl7@yandex.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -123,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/psit/example/test/store/FantaStore.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="D:/dev/IDE/maven/.m2/repository/org/mockito/mockito-core/2.8.9/mockito-core-2.8.9.jar!/org/mockito/Mockito.class" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/psit/example/test/producer/WaterProducerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/psit/example/test/producer/WaterProducer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/psit/example/test/producer/WaterProducerTest.java" />
       </list>
     </option>
   </component>
@@ -245,15 +252,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectOneForTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectOneForTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectOneForTest" type="b2602c69:ProjectViewProjectNode" />
@@ -568,7 +566,7 @@
       <workItem from="1505071392637" duration="28000" />
       <workItem from="1505071470437" duration="25000" />
       <workItem from="1505139065872" duration="590000" />
-      <workItem from="1505211478601" duration="3086000" />
+      <workItem from="1505211478601" duration="6106000" />
     </task>
     <task id="LOCAL-00001" summary="Общий прецедент для всех объектов. Поправлен С. Изумрудным.&#10;&#10;Поправлен прецендент взятия ID объекта из файла.&#10;Поддерживаются для 27 и 28 версии.">
       <created>1505214799763</created>
@@ -577,7 +575,21 @@
       <option name="project" value="LOCAL" />
       <updated>1505214799763</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Общий прецедент для всех объектов. Поправлен С. Изумрудным.&#10;&#10;Поправлен прецендент взятия ID объекта из файла.&#10;Поддерживаются для 27 и 28 версии.">
+      <created>1505215508349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505215508349</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавил в существобходимые изменения.">
+      <created>1505224838210</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505224838210</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -613,10 +625,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36106000" />
+    <option name="totallyTimeSpent" value="39126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="0" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -624,7 +637,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34715027" sideWeight="0.50300753" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34715027" sideWeight="0.50300753" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14661655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27228206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -655,7 +668,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Общий прецедент для всех объектов. Поправлен С. Изумрудным.&#10;&#10;Поправлен прецендент взятия ID объекта из файла.&#10;Поддерживаются для 27 и 28 версии." />
-    <option name="LAST_COMMIT_MESSAGE" value="Общий прецедент для всех объектов. Поправлен С. Изумрудным.&#10;&#10;Поправлен прецендент взятия ID объекта из файла.&#10;Поддерживаются для 27 и 28 версии." />
+    <MESSAGE value="Добавил в существобходимые изменения." />
+    <MESSAGE value="Не прощел тест по созданию Рома.&#10;&#10;функция testWaterProducerOrder_ROME_resiltRome." />
+    <option name="LAST_COMMIT_MESSAGE" value="Не прощел тест по созданию Рома.&#10;&#10;функция testWaterProducerOrder_ROME_resiltRome." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -695,7 +710,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,7 +795,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -845,7 +860,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -933,7 +948,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,30 +1069,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/psit/example/test/producer/WaterProducerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/psit/example/test/store/JinStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/psit/example/test/producer/WaterProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="398">
+          <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/psit/example/test/producer/WaterProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

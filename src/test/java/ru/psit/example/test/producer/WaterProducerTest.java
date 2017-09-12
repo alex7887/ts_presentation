@@ -205,4 +205,11 @@ public class WaterProducerTest  {
         Assert.assertEquals(FANTA, waterResult.getName());
 
     }
+
+
+    public void testWaterProducerOrder_ROME_resiltRome() throws Exception {
+
+        waterProducer.createStore("ROME");
+
+    }
 }
