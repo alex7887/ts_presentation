@@ -18,6 +18,7 @@ public class WaterProducer {
 
         WaterStore waterStore = null;
 
+
         if (name.equals("fanta"))
         {
             waterStore = new FantaStore();
@@ -35,7 +36,7 @@ public class WaterProducer {
 
         }else
         {
-            throw new Exception();
+            throw new Exception("Didn't drink's type");
         }
 
         stories.put(name, waterStore);
