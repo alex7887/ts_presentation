@@ -152,8 +152,6 @@ public class WaterProducerTest  {
 
         Water water = Mockito.mock(Water.class);
 
-        Mockito.when(water.getPrice()).thenReturn(PRICE);
-
         WaterStore fantaStore = Mockito.mock(WaterStore.class);
         Mockito.when(fantaStore.create(JIN)).thenReturn(water);
 
@@ -163,8 +161,8 @@ public class WaterProducerTest  {
         Water waterResult = waterProducer.order(JIN);
 
 
-        Mockito.verify(waterProducer, Mockito.atLeast(1)).createStore(Mockito.anyString());
-        //Mockito.verify(waterProducer, Mockito.atLeast(2)).order(Mockito.anyString());
+       // Mockito.verify(waterProducer, Mockito.atLeast(1)).createStore(Mockito.anyString());
+        Mockito.verify(waterProducer, Mockito.atLeast(1)).order(Mockito.anyString());
 
     }
 
